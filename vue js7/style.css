@@ -1,0 +1,23 @@
+.red{
+    background-color: red;
+    width: 40px;
+    height: 20px;
+}
+.green{
+background-color: green;
+width: 40px;
+height: 20px;
+}
+.blue{
+    background-color: blue;
+    width: 40px;
+    height: 20px;
+}
+button{
+    margin: 10px;
+    padding: 5px 10px;
+}
+.astive{
+    background-color: #3f3838;
+    color: #fff;
+}

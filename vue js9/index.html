@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="vue.global.js"></script>
+
+</head>
+
+<body>
+    <div class="app">
+        <input type="text" v-model="addNewe.name" />
+        <button @click="addScill"> add</button>
+        <ul>
+            <li v-for="(skill,i) in skills" @click="remobe(i)">
+                <p>{{i+1}}.{{skill.name}}.({{skill.experince}})</p>
+                </li>
+        </ul>
+    </div>
+
+    <script src="shahin.js"></script>
+</body>
+
+</html>

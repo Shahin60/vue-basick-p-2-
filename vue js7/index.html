@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="newp">
+        <p>{{title}}</p>
+        <p>{{tim()}}</p>
+        <input type="color" name="" id="" v-model="bgColor">
+<button :class="{astive:bgColor == 'red'}" @click="colorTest('red') ">red</button>
+<button :class="{astive:bgColor == 'green'} " @click="colorTest('green') ">green</button>
+<button :class="{astive:bgColor == 'blue'} " @click="colorTest('blue') ">blue</button>
+
+<div :class="bgColor"></div>
+
+
+
+
+    </div>
+    <script src="ap.js"></script>
+</body>
+
+</html>
